@@ -24,6 +24,13 @@ clustergit --warn-unversioned --pull
 
 Make the script executable and drop it somewhere in your $PATH.
 
+## Requirements
+
+ * python2 or python3
+ * argparse/ArgParse
+ * argcomplete
+ * commands/subprocess
+
 ## Usage
 
 Usage: clustergit [options]
