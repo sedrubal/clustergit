@@ -87,10 +87,10 @@ def read_arguments():
                 help        = "Do a 'git pull' if you've set a remote with -r it will pull from there"
                 )
 
-    parser.add_option("--exec", "--execute",
+    parser.add_argument("--exec", "--execute",
                 action      = "store",
                 dest        = "command",
-                type        = "string",
+                type        = str,
                 default     = "",
                 help        = "Execute a shell command in each repository"
                 )
